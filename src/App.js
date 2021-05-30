@@ -76,7 +76,7 @@ function App() {
   };
 
   return (
-    <div>
+    <>
         <PrimarySection>
       <Quiz>
           {showScore ? (<Score>{` Your Score Is : ${correctAnswer} out of ${questions.length} `}
@@ -101,7 +101,7 @@ function App() {
         )}
       </Quiz>
     </PrimarySection>
-    </div>
+    </>
   );
 }
 
